@@ -1,0 +1,9 @@
+{
+	"name": "resource-rfuster-per-adf",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d03a17d1-6fa9-41b9-ac0d-b2d2f67d9fbb",
+		"tenantId": "1b729c6e-2c13-41fc-bfa9-605de677e36d"
+	}
+}
