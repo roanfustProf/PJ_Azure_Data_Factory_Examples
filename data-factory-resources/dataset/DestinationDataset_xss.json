@@ -11,10 +11,6 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"container": "sampledata"
-			},
-			"compression": {
-				"type": "ZipDeflate",
-				"level": "Optimal"
 			}
 		}
 	}
