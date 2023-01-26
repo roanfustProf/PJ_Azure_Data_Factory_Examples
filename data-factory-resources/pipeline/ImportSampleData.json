@@ -33,11 +33,7 @@
 							"modifiedDatetimeEnd": "2023-01-25T00:00:00.000Z"
 						},
 						"formatSettings": {
-							"type": "BinaryReadSettings",
-							"compressionProperties": {
-								"type": "ZipDeflateReadSettings",
-								"preserveZipFileNameAsFolder": false
-							}
+							"type": "BinaryReadSettings"
 						}
 					},
 					"sink": {
