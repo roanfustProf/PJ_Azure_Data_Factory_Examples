@@ -12,10 +12,6 @@
 				"type": "AzureBlobStorageLocation",
 				"fileName": "azure-data-factory-by-example-main.zip",
 				"container": "landing"
-			},
-			"compression": {
-				"type": "ZipDeflate",
-				"level": "Fastest"
 			}
 		}
 	}
