@@ -4,9 +4,6 @@
 	"parameters": {
 		"factoryName": {
 			"value": "resource-rfuster-per-adf"
-		},
-		"AzureBlobStorage1_connectionString": {
-			"value": ""
 		}
 	}
 }
