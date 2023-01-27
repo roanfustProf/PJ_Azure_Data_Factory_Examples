@@ -7,9 +7,9 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "resource-rfuster-per-adf"
 		},
-		"AzureBlobStorage1_connectionString": {
+		"adfbyexamplesa_connectionString": {
 			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1'"
+			"metadata": "Secure string for 'connectionString' of 'adfbyexamplesa'"
 		},
 		"containerUri": {
 			"type": "string",
@@ -38,8 +38,8 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"AzureBlobStorage1_connectionString": {
-						"value": "[parameters('AzureBlobStorage1_connectionString')]"
+					"adfbyexamplesa_connectionString": {
+						"value": "[parameters('adfbyexamplesa_connectionString')]"
 					}
 				}
 			},

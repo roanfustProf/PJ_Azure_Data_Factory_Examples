@@ -5,7 +5,7 @@
 		"factoryName": {
 			"value": "resource-rfuster-per-adf"
 		},
-		"AzureBlobStorage1_connectionString": {
+		"adfbyexamplesa_connectionString": {
 			"value": ""
 		},
 		"containerUri": {
