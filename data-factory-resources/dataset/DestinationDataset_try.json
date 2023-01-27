@@ -1,0 +1,17 @@
+{
+	"name": "DestinationDataset_try",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adfbyexamplesa",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "sampledata2"
+			}
+		}
+	}
+}
