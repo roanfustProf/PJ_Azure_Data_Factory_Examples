@@ -4,9 +4,6 @@
 	"parameters": {
 		"factoryName": {
 			"value": "resource-rfuster-per-adf"
-		},
-		"adfbyexamplesa_connectionString": {
-			"value": ""
 		}
 	}
 }

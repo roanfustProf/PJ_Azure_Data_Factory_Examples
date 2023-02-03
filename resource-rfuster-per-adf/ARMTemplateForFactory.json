@@ -6,29 +6,10 @@
 			"type": "string",
 			"metadata": "Data Factory name",
 			"defaultValue": "resource-rfuster-per-adf"
-		},
-		"adfbyexamplesa_connectionString": {
-			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'adfbyexamplesa'"
 		}
 	},
 	"variables": {
 		"factoryId": "[concat('Microsoft.DataFactory/factories/', parameters('factoryName'))]"
 	},
-	"resources": [
-		{
-			"name": "[concat(parameters('factoryName'), '/adfbyexamplesa')]",
-			"type": "Microsoft.DataFactory/factories/linkedServices",
-			"apiVersion": "2018-06-01",
-			"properties": {
-				"description": "Blob storage in 'adfebyexamplesa' storage account",
-				"annotations": [],
-				"type": "AzureBlobStorage",
-				"typeProperties": {
-					"connectionString": "[parameters('adfbyexamplesa_connectionString')]"
-				}
-			},
-			"dependsOn": []
-		}
-	]
+	"resources": []
 }
