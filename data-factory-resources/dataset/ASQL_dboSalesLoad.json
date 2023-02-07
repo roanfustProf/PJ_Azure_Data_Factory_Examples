@@ -1,5 +1,5 @@
 {
-	"name": "ds_azuresql_Sales_LOAD",
+	"name": "ASQL_dboSalesLoad",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "ls_db_sql_server_rfuster",
