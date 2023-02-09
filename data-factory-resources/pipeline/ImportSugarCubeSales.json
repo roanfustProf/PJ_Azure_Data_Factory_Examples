@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data1",
+				"name": "Import sales data",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
