@@ -1,0 +1,22 @@
+{
+	"name": "CSV_exmample",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adfbyexamplesa",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "datalake",
+				"container": "output"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
