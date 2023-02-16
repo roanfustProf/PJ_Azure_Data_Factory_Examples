@@ -37,68 +37,6 @@
 					"enableStaging": false,
 					"translator": {
 						"type": "TabularTranslator",
-						"mappings": [
-							{
-								"source": {
-									"name": "Product",
-									"type": "String",
-									"physicalType": "UTF8"
-								},
-								"sink": {
-									"type": "String",
-									"physicalType": "String",
-									"ordinal": 1
-								}
-							},
-							{
-								"source": {
-									"name": "Price",
-									"type": "Single",
-									"physicalType": "FLOAT"
-								},
-								"sink": {
-									"type": "String",
-									"physicalType": "String",
-									"ordinal": 2
-								}
-							},
-							{
-								"source": {
-									"name": "TransactionId",
-									"type": "String",
-									"physicalType": "UTF8"
-								},
-								"sink": {
-									"type": "String",
-									"physicalType": "String",
-									"ordinal": 3
-								}
-							},
-							{
-								"source": {
-									"name": "TransactionDate",
-									"type": "DateTime",
-									"physicalType": "INT96"
-								},
-								"sink": {
-									"type": "String",
-									"physicalType": "String",
-									"ordinal": 4
-								}
-							},
-							{
-								"source": {
-									"name": "StoreId",
-									"type": "Int32",
-									"physicalType": "INT32"
-								},
-								"sink": {
-									"type": "String",
-									"physicalType": "String",
-									"ordinal": 5
-								}
-							}
-						],
 						"typeConversion": true,
 						"typeConversionSettings": {
 							"allowDataTruncation": true,
