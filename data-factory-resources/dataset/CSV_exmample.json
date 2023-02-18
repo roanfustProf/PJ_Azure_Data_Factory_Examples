@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": ".csv",
+				"fileName": "CSV_example.csv",
 				"folderPath": "datalake",
 				"container": "output"
 			},
